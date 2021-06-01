@@ -10,6 +10,8 @@
     margin: auto;
 }
 #character{
+    src: "IMG_20180507_194803-removebg-preview (1).png";
+
     width: 20px;
     height: 50px;
     background-color: red;
@@ -17,7 +19,7 @@
     top: 150px;
 }
 .animate{
-    animation: jump 0.3s linear;
+    animation: jump 2s linear;
 }
 @keyframes jump{
     0%{top: 150px;}
@@ -26,7 +28,7 @@
     100%{top: 150px;}
 }
 
-#block{
+#block{ 
     background-color: blue;
     width: 20px;
     height: 20px;
