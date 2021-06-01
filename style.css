@@ -11,10 +11,6 @@
 }
 #character{
     src: "IMG_20180507_194803-removebg-preview (1).png";
-
-    width: 20px;
-    height: 50px;
-    background-color: red;
     position:relative;
     top: 150px;
 }
