@@ -9,7 +9,8 @@
     border: 1px solid black;
     margin: auto;
 }
-#character{
+#character{ 
+    <img src: "IMG_20180507_194803-removebg-preview (1).png"></img>
     position:relative;
     top: 150px;
 }
