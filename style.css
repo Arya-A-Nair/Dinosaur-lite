@@ -9,43 +9,13 @@
     border: 1px solid black;
     margin: auto;
 }
-  #character {
-      box-shadow: 0 0 0 1em red,
-      0 1em 0 1em red,
-      -2.5em 1.5em 0 .5em red,
-      2.5em 1.5em 0 .5em red,
-      -3em -3em 0 0 red,
-      3em -3em 0 0 red,
-      -2em -2em 0 0 red,
-      2em -2em 0 0 red,
-      -3em -1em 0 0 red,
-      -2em -1em 0 0 red,
-      2em -1em 0 0 red,
-      3em -1em 0 0 red,
-      -4em 0 0 0 red,
-      -3em 0 0 0 red,
-      3em 0 0 0 red,
-      4em 0 0 0 red,
-      -5em 1em 0 0 red,
-      -4em 1em 0 0 red,
-      4em 1em 0 0 red,
-      5em 1em 0 0 red,
-      -5em 2em 0 0 red,
-      5em 2em 0 0 red,
-      -5em 3em 0 0 red,
-      -3em 3em 0 0 red,
-      3em 3em 0 0 red,
-      5em 3em 0 0 red,
-      -2em 4em 0 0 red,
-      -1em 4em 0 0 red,
-      1em 4em 0 0 red,
-      2em 4em 0 0 red;
-      background: red;
-      width: 10%;
-      height: 10%;
-      overflow: hidden;
-      margin: 50px 0 70px 65px;
-    }
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
 .animate{
     animation: jump 0.3s linear;
 }
