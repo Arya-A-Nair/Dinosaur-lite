@@ -15,8 +15,7 @@
     background-color: green;
     position:relative;
     top: 150px;
-    border radius: 50%;
-}
+    }
 .animate{
     animation: jump 0.3s linear;
 }
